@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InterviewCR.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace InterviewCR
     {
         static void Main(string[] args)
         {
+            JsonParser jsonParser = new JsonParser();
+            jsonParser.LoadMenuItems();
         }
     }
 }

@@ -5,7 +5,7 @@ namespace InterviewCR.Models
 {
     public class Combo : IItem
     {
-        private List<MenuItem> _items;
+        private List<MenuItem> _items = new List<MenuItem>();
         public List<MenuItem> Items
         {
             get => _items; 

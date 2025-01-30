@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\teton\\source\\repos\\InterviewCR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\instructions.txt||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\instructions.txt||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\utilities\\jsonparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\utilities\\jsonparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\models\\combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\models\\combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\combo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\instructions.txt||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
-      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\instructions.txt||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\teton\\source\\repos\\interviewcr\\interviewcr\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Instructions.txt",
-              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Instructions.txt",
-              "RelativeDocumentMoniker": "InterviewCR\\Instructions.txt",
-              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Instructions.txt",
-              "RelativeToolTip": "InterviewCR\\Instructions.txt",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-30T01:19:35.818Z",
+              "DocumentIndex": 1,
+              "Title": "JsonParser.cs",
+              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Utilities\\JsonParser.cs",
+              "RelativeDocumentMoniker": "InterviewCR\\Utilities\\JsonParser.cs",
+              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Utilities\\JsonParser.cs",
+              "RelativeToolTip": "InterviewCR\\Utilities\\JsonParser.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:50:14.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IItem.cs",
               "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Interfaces\\IItem.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Interfaces\\IItem.cs",
@@ -68,46 +76,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\MenuItem.cs",
-              "RelativeDocumentMoniker": "InterviewCR\\Models\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\MenuItem.cs",
-              "RelativeToolTip": "InterviewCR\\Models\\MenuItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T01:12:24.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Combo.cs",
               "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Combo.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Models\\Combo.cs",
               "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Combo.cs",
               "RelativeToolTip": "InterviewCR\\Models\\Combo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T01:12:13.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "InterviewCR\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Order.cs",
-              "RelativeToolTip": "InterviewCR\\Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T01:11:59.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Models\\Customer.cs",
@@ -120,15 +102,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Program.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Program.cs",
               "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Program.cs",
               "RelativeToolTip": "InterviewCR\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwA4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T01:09:35.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Instructions.txt",
+              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Instructions.txt",
+              "RelativeDocumentMoniker": "InterviewCR\\Instructions.txt",
+              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Instructions.txt",
+              "RelativeToolTip": "InterviewCR\\Instructions.txt",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-30T01:19:35.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "InterviewCR\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Menu.cs",
+              "RelativeToolTip": "InterviewCR\\Models\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T02:01:56.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "InterviewCR\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\MenuItem.cs",
+              "RelativeToolTip": "InterviewCR\\Models\\MenuItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:12:24.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "InterviewCR\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\teton\\source\\repos\\InterviewCR\\InterviewCR\\Models\\Order.cs",
+              "RelativeToolTip": "InterviewCR\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:11:59.24Z",
               "EditorCaption": ""
             }
           ]
