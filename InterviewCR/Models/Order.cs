@@ -6,8 +6,16 @@ namespace InterviewCR.Models
 {
     public class Order
     {
-        public List<IItem> _items;
+        private List<IItem> _items;
+        public List<IItem> Items
+        {
+            get => _items;
+            set => _items = value;
+        }
 
-        public decimal TotalCost => _items.Sum(x => x.Price);
+        public decimal TotalCost()
+        {
+            return _items.Sum(x => x.Price);
+        }
     }
 }
