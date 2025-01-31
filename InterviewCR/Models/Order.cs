@@ -34,7 +34,7 @@ namespace InterviewCR.Models
         {
             return string.Join(Environment.NewLine, Items.SelectMany(item =>
                 item is Combo combo ? combo.Items : new List<MenuItem> { (MenuItem)item })
-                .Select(item => item.Name));
+                .Select(item => $" - {item.Name}"));
         }
     }
 }
