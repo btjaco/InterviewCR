@@ -14,7 +14,12 @@ namespace InterviewCR.Rules
             When()
                 .Match<Customer>(() => customer, IsOrderInvalid());
             Then()
-                .Do(ctx => ctx.Insert(new InvalidOrderNotification { Customer = customer }));
+                .Do(ctx => UpdateCustomer(customer));
+        }
+
+        private void UpdateCustomer(Customer customer)
+        {
+            customer.HasValidOrder = false;
         }
 
         private Expression<Func<Customer, bool>> IsOrderInvalid()

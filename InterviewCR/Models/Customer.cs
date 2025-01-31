@@ -8,6 +8,7 @@ namespace InterviewCR.Models
         public string Name { get; private set; }
         public Order Order { get; private set; }
         public DietaryRestrictions DietaryRestriction { get; private set; }
+        public bool HasValidOrder { get; set; }
 
         public Customer(string name, DietaryRestrictions dietaryRestrictions)
         {

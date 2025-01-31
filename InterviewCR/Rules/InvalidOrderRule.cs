@@ -14,12 +14,12 @@ namespace InterviewCR.Rules
     {
         public override void Define()
         {
-            InvalidOrderNotification notification = null;
+            Customer customer = null;
 
             When()
-                .Match<InvalidOrderNotification>(() => notification);
+                .Match<Customer>(() => customer, c => !c.HasValidOrder);
             Then()
-                .Do(ctx => NotifyInvalidOrder(notification.Customer));
+                .Do(ctx => NotifyInvalidOrder(customer));
         }
 
         private void NotifyInvalidOrder(Customer customer)
