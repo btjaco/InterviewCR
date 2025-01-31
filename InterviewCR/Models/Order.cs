@@ -8,7 +8,7 @@ namespace InterviewCR.Models
 {
     public class Order
     {
-        public List<IItem> Items { get; set; }
+        public List<IItem> Items { get; private set; }
 
         public Order()
         {

@@ -12,12 +12,12 @@ namespace InterviewCR.Rules
         {
             Customer customer = null;
             When()
-                .Match<Customer>(() => customer, IsOrderValid());
+                .Match<Customer>(() => customer, IsOrderInvalid());
             Then()
                 .Do(ctx => ctx.Insert(new InvalidOrderNotification { Customer = customer }));
         }
 
-        private Expression<Func<Customer, bool>> IsOrderValid()
+        private Expression<Func<Customer, bool>> IsOrderInvalid()
         {
             return c => c.Order.GetInvalidItems(c.DietaryRestriction).Any();
         }

@@ -15,6 +15,7 @@ namespace InterviewCR
             MenuItem burger = new MenuItem("Hamburger", DietaryRestrictions.VEGAN, 3.50m);
             MenuItem soda = new MenuItem("Diet Coke", DietaryRestrictions.NONE, .99m);
             MenuItem iceCream = new MenuItem("Chocolate Ice Cream", DietaryRestrictions.GLUTEN_FREE, 1.50m);
+            
             Combo burgerCombo = new Combo(fries, burger, soda);
 
             Customer fred = new Customer("Fred", DietaryRestrictions.HALAL);

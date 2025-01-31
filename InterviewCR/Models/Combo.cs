@@ -5,7 +5,7 @@ namespace InterviewCR.Models
 {
     public class Combo : IItem
     {
-        public List<MenuItem> Items { get; set; }
+        public List<MenuItem> Items { get; private set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }

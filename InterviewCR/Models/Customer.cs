@@ -5,9 +5,9 @@ namespace InterviewCR.Models
 {
     public class Customer
     {
-        public string Name { get; set; }
-        public Order Order { get; set; }
-        public DietaryRestrictions DietaryRestriction { get; set; }
+        public string Name { get; private set; }
+        public Order Order { get; private set; }
+        public DietaryRestrictions DietaryRestriction { get; private set; }
 
         public Customer(string name, DietaryRestrictions dietaryRestrictions)
         {
