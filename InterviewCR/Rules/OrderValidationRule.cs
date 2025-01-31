@@ -1,7 +1,8 @@
-﻿using InterviewCR.Enums;
-using InterviewCR.Models;
+﻿using InterviewCR.Models;
 using NRules.Fluent.Dsl;
 using System;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace InterviewCR.Rules
 {
@@ -11,28 +12,14 @@ namespace InterviewCR.Rules
         {
             Customer customer = null;
             When()
-                .Match<Customer>(() => customer);
+                .Match<Customer>(() => customer, IsOrderValid());
             Then()
-                .Do(_ => ValidateOrder(customer));
+                .Do(ctx => ctx.Insert(new InvalidOrderNotification { Customer = customer }));
         }
 
-        private void ValidateOrder(Customer customer)
+        private Expression<Func<Customer, bool>> IsOrderValid()
         {
-            bool validOrder = true;
-
-            foreach (MenuItem item in customer.Order.GetAllMenuItems())
-            {
-                if (customer.DietaryRestriction != DietaryRestrictions.NONE && item.DietaryRestriction != customer.DietaryRestriction)
-                {
-                    Console.WriteLine($"Invalid Order: {customer.Name} cannot have {item.Name} (does not meet {customer.DietaryRestriction} restriction)");
-                    validOrder = false;
-                }
-            }
-
-            if (validOrder)
-            {
-                Console.WriteLine($"{customer.Name} paid ${customer.Order.TotalCost()} for: \n{customer.Order.Print()}");
-            }
+            return c => c.Order.GetInvalidItems(c.DietaryRestriction).Any();
         }
     }
 }

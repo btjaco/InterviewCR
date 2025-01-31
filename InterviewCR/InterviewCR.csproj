@@ -54,12 +54,14 @@
   <ItemGroup>
     <Compile Include="Enums\DietaryRestrictions.cs" />
     <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IOrderNotification.cs" />
     <Compile Include="Models\Combo.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\InvalidOrderRule.cs" />
     <Compile Include="Rules\OrderValidationRule.cs" />
   </ItemGroup>
   <ItemGroup>

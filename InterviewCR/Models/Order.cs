@@ -1,4 +1,5 @@
-﻿using InterviewCR.Interfaces;
+﻿using InterviewCR.Enums;
+using InterviewCR.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,22 +20,24 @@ namespace InterviewCR.Models
             Items.Add(item);
         }
 
-        public IEnumerable<MenuItem> GetAllMenuItems()
-        {
-            return Items.SelectMany(item => item is Combo combo ? combo.Items : new List<MenuItem> { (MenuItem)item });
-        }
-
         public decimal TotalCost()
         {
-            return Items.SelectMany(item => item is Combo combo ? combo.Items : new List<MenuItem> { (MenuItem)item })
-                .Sum(item => item.Price);
+            return GetAllMenuItems().Sum(item => item.Price);
         }
 
         public string Print()
         {
-            return string.Join(Environment.NewLine, Items.SelectMany(item =>
-                item is Combo combo ? combo.Items : new List<MenuItem> { (MenuItem)item })
-                .Select(item => $" - {item.Name}"));
+            return string.Join(Environment.NewLine, GetAllMenuItems().Select(item => $" - {item.Name}"));
+        }
+
+        public List<MenuItem> GetInvalidItems(DietaryRestrictions dietaryRestriction)
+        {
+            return GetAllMenuItems().Where(item => dietaryRestriction != DietaryRestrictions.NONE && item.DietaryRestriction != dietaryRestriction).ToList();
+        }
+
+        private IEnumerable<MenuItem> GetAllMenuItems()
+        {
+            return Items.SelectMany(item => item is Combo combo ? combo.Items : new List<MenuItem> { (MenuItem)item });
         }
     }
 }

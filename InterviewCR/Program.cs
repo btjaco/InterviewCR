@@ -38,6 +38,7 @@ namespace InterviewCR
 
             session.Fire();
 
+            Console.WriteLine("\nPress any key to continue");
             Console.ReadLine();
         }
     }
