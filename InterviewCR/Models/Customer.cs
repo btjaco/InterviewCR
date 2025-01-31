@@ -15,6 +15,7 @@ namespace InterviewCR.Models
             Name = name;
             DietaryRestriction = dietaryRestrictions;
             Order = new Order();
+            HasValidOrder = true;
         }
 
         public void OrderFood(params IItem[] items)

@@ -1,20 +1,14 @@
-﻿using InterviewCR.Interfaces;
-using InterviewCR.Models;
+﻿using InterviewCR.Models;
 using NRules.Fluent.Dsl;
 using System;
 
 namespace InterviewCR.Rules
 {
-    public class InvalidOrderNotification : IOrderNotification
-    {
-        public Customer Customer { get; set; }
-    }
-
     public class InvalidOrderRule : Rule
     {
         public override void Define()
         {
-            Customer customer = null;
+            Customer customer = default;
 
             When()
                 .Match<Customer>(() => customer, c => !c.HasValidOrder);

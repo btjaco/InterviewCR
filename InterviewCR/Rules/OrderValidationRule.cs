@@ -1,5 +1,6 @@
 ﻿using InterviewCR.Models;
 using NRules.Fluent.Dsl;
+using NRules.RuleModel;
 using System;
 using System.Linq;
 using System.Linq.Expressions;
@@ -10,16 +11,19 @@ namespace InterviewCR.Rules
     {
         public override void Define()
         {
-            Customer customer = null;
+            Customer customer = default;
+
             When()
-                .Match<Customer>(() => customer, IsOrderInvalid());
+                .Match<Customer>(() => customer, IsOrderInvalid(), c => c.HasValidOrder);
             Then()
-                .Do(ctx => UpdateCustomer(customer));
+                .Do(ctx => UpdateCustomer(ctx, customer));
         }
 
-        private void UpdateCustomer(Customer customer)
+        private void UpdateCustomer(IContext ctx, Customer customer)
         {
             customer.HasValidOrder = false;
+
+            ctx.Update(customer);
         }
 
         private Expression<Func<Customer, bool>> IsOrderInvalid()

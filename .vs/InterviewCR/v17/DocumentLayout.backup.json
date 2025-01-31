@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\bryce\\documents\\github\\interviewcr\\interviewcr\\rules\\validorderrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\rules\\validorderrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\bryce\\documents\\github\\interviewcr\\interviewcr\\rules\\invalidorderrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\rules\\invalidorderrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\rules\\ordervalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\interviewcr\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\interviewcr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\interviewcr\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\bryce\\documents\\github\\interviewcr\\interviewcr\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\interviewcr\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|c:\\users\\bryce\\documents\\github\\interviewcr\\interviewcr\\interfaces\\iordernotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E507CCD-81D3-4414-A5B9-E5AFABF85DA5}|InterviewCR\\InterviewCR.csproj|solutionrelative:interviewcr\\interfaces\\iordernotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,33 +54,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrderValidationRule.cs",
               "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Rules\\OrderValidationRule.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Rules\\OrderValidationRule.cs",
               "ToolTip": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Rules\\OrderValidationRule.cs",
               "RelativeToolTip": "InterviewCR\\Rules\\OrderValidationRule.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T02:00:00.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InvalidOrderRule.cs",
               "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Rules\\InvalidOrderRule.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Rules\\InvalidOrderRule.cs",
               "ToolTip": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Rules\\InvalidOrderRule.cs",
               "RelativeToolTip": "InterviewCR\\Rules\\InvalidOrderRule.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBUAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T13:55:29.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Combo.cs",
               "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Models\\Combo.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Models\\Combo.cs",
@@ -93,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Models\\Customer.cs",
               "ToolTip": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Models\\Customer.cs",
               "RelativeToolTip": "InterviewCR\\Models\\Customer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T01:11:52.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Models\\Order.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Models\\Order.cs",
@@ -119,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MenuItem.cs",
               "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Models\\MenuItem.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Models\\MenuItem.cs",
@@ -132,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IItem.cs",
               "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Interfaces\\IItem.cs",
               "RelativeDocumentMoniker": "InterviewCR\\Interfaces\\IItem.cs",
@@ -151,22 +151,28 @@
               "RelativeDocumentMoniker": "InterviewCR\\Program.cs",
               "ToolTip": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Program.cs",
               "RelativeToolTip": "InterviewCR\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T01:09:35.929Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IOrderNotification.cs",
-              "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Interfaces\\IOrderNotification.cs",
-              "RelativeDocumentMoniker": "InterviewCR\\Interfaces\\IOrderNotification.cs",
-              "ToolTip": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Interfaces\\IOrderNotification.cs",
-              "RelativeToolTip": "InterviewCR\\Interfaces\\IOrderNotification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ValidOrderRule.cs",
+              "DocumentMoniker": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Rules\\ValidOrderRule.cs",
+              "RelativeDocumentMoniker": "InterviewCR\\Rules\\ValidOrderRule.cs",
+              "ToolTip": "C:\\Users\\Bryce\\Documents\\GitHub\\InterviewCR\\InterviewCR\\Rules\\ValidOrderRule.cs",
+              "RelativeToolTip": "InterviewCR\\Rules\\ValidOrderRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T17:13:05.263Z",
+              "WhenOpened": "2025-01-31T19:14:40.415Z",
               "EditorCaption": ""
             }
           ]
