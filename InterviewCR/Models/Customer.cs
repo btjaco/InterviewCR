@@ -4,25 +4,13 @@ namespace InterviewCR.Models
 {
     public class Customer
     {
-        private string _name;
-        public string Name
-        {
-            get => _name;
-            set => _name = value;
-        }
+        public string Name { get; set; }
+        public Order Order { get; set; }
+        public DietaryRestrictions DietaryRestrictions { get; set; }
 
-        private Order _order;
-        public Order Order
+        public Customer(DietaryRestrictions dietaryRestrictions)
         {
-            get => _order;
-            set => _order = value;
-        }
-
-        private DietaryRestrictions _dietaryRestrictions;
-        public DietaryRestrictions DietaryRestrictions
-        {
-            get => _dietaryRestrictions;
-            set => _dietaryRestrictions = value;
+            DietaryRestrictions = dietaryRestrictions;
         }
     }
 }
