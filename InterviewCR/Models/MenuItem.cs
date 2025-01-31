@@ -1,4 +1,5 @@
-﻿using InterviewCR.Interfaces;
+﻿using InterviewCR.Enums;
+using InterviewCR.Interfaces;
 
 namespace InterviewCR.Models
 {
@@ -8,39 +9,28 @@ namespace InterviewCR.Models
         public string Name 
         {
             get => _name;
-            set
-            {
-                if (_name != value)
-                {
-                    _name = value;
-                }
-            }
+            set => _name = value;
         }
 
         private string _description;
         public string Description
         {
             get => _description;
-            set
-            {
-                if (_description != value)
-                {
-                    _description = value;
-                }
-            }
+            set => _description = value;
         }
 
         private decimal _price;
         public decimal Price
         {
             get => _price;
-            set
-            {
-                if (_price != value)
-                {
-                    _price = value;
-                }
-            }
+            set =>_price = value;
+        }
+
+        private DietaryRestrictions _dietaryRestrictions;
+        public DietaryRestrictions DietaryRestrictions
+        {
+            get => _dietaryRestrictions;
+            set => _dietaryRestrictions = value;
         }
     }
 }

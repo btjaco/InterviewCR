@@ -22,4 +22,4 @@ Decide on simple criteria to determine if an order is appropriate for a customer
 Create instances of the menu items and combos you decide to use. Then create instances
 of customers with different qualities you can test against the items within an order.
 Create and assign orders to the customers. Run the rules you have created and output messages
-indicating the customer and orders that are invalid based on the criteria you decide on./
+indicating the customer and orders that are invalid based on the criteria you decide on.
