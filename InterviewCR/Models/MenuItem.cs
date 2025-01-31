@@ -8,6 +8,13 @@ namespace InterviewCR.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public DietaryRestrictions DietaryRestrictions { get; set; }
+        public DietaryRestrictions DietaryRestriction { get; set; }
+
+        public MenuItem(string name, DietaryRestrictions dietaryRestrictions, decimal price)
+        {
+            Name = name;
+            DietaryRestriction = dietaryRestrictions;
+            Price = price;
+        }
     }
 }

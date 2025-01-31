@@ -1,4 +1,5 @@
 ﻿using InterviewCR.Enums;
+using InterviewCR.Interfaces;
 
 namespace InterviewCR.Models
 {
@@ -6,11 +7,21 @@ namespace InterviewCR.Models
     {
         public string Name { get; set; }
         public Order Order { get; set; }
-        public DietaryRestrictions DietaryRestrictions { get; set; }
+        public DietaryRestrictions DietaryRestriction { get; set; }
 
-        public Customer(DietaryRestrictions dietaryRestrictions)
+        public Customer(string name, DietaryRestrictions dietaryRestrictions)
         {
-            DietaryRestrictions = dietaryRestrictions;
+            Name = name;
+            DietaryRestriction = dietaryRestrictions;
+            Order = new Order();
+        }
+
+        public void OrderFood(params IItem[] items)
+        {
+            foreach (IItem item in items)
+            {
+                Order.AddToOrder(item);
+            }
         }
     }
 }
